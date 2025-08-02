@@ -12,6 +12,9 @@ uvicorn = {extras = ["standart"], version = "^0.35.0"}
 pydentic = {extras = ["email"], version = "^0.0.1.dev3"}
 
 
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
