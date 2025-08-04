@@ -13,6 +13,7 @@ pydentic = {extras = ["email"], version = "^0.0.1.dev3"}
 sqlalchemy = {extras = ["asynco"], version = "^2.0.42"}
 aiosqlite = "^0.21.0"
 pydantic-settings = "^2.10.1"
+alembic = "^1.16.4"
 
 
 [tool.poetry.group.dev.dependencies]
